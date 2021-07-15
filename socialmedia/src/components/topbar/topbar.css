@@ -1,0 +1,103 @@
+.topbar{
+    display: flex;
+    background-color: #1877f2;
+    position: sticky;
+    top:0;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    z-index: 999;
+}
+.topbar-left{
+    flex:3;
+}
+
+.topbar-left .logo{
+    font-size: 24px;
+    font-weight: 600;
+    color:#fff;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.topbar-center{
+    flex: 5;
+}
+
+.search-bar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.search-bar .search-icon{
+    font-size: 16px;
+    margin-left: 15px;
+}
+.search-bar input{
+    border:none;
+    margin-left:20px ;
+    width: 90%;
+    height: 100%;
+}
+.search-bar input:focus{
+    outline: none;
+    border:none;
+}
+.topbar-right{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.topbar-link{
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.topbar-icons{
+    display: flex;
+}
+.topbar-icon-item{
+    cursor: pointer;
+    position: relative;
+}
+.topbar-icon-item:nth-child(2){
+    margin: 0 20px;
+}
+.topbar-icon-badge{
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    background-color: red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbar-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.logoutButton{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1872f2;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.logoutButton:hover{
+    background-color: #115ac2;
+}
